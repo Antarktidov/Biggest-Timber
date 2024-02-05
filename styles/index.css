@@ -1,0 +1,95 @@
+/*Страница*/
+.company-title {
+    font-size: 40px;
+    text-align: center;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 39px;
+    margin-bottom: 39px;
+
+    padding: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.main {
+    display: flex;
+}
+.about-company {
+    background-color: #414040;
+    width: 40vw;
+    padding-left: 31px;
+    padding-right: 31px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.about-company-block {
+    font-size: 30px;
+    padding: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+
+    margin-bottom: 27px;
+}
+.about-company-p {
+    font-size: 18px;
+    font-family: 'Gropled-Bold';
+    line-height: 30px;
+    margin-bottom: 27px;
+}
+.get-acquainted-with-catalogue {
+    font-family: 'Gropled-Bold';
+    font-size: 30px;
+    padding: 10px;
+}
+
+.mainpage-microwave {
+    margin-left: auto;
+    background-image: url(file:///D:/Biggest%20Timber//images/microvawe-mainpage.png);
+    background-size: cover;
+    color: transparent;
+}
+/*О команде*/
+.about-team-block {
+    font-size: 35px;
+    text-align: center;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 39px;
+    margin-bottom: 39px;
+
+    padding: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.about-team {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, auto));
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.customer-support-specialist {
+    margin-top: 50px;
+}
+
+.customer-support-specialist-photo {
+    border-radius: 90px;
+}
+.customer-support-specialist-name {
+    font-size: 30px;
+    font-family: 'Gropled-Bold';
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.customer-support-specialist-bio {
+    font-size: 18px;
+    font-family: 'Gropled-Bold';
+    width: 200px;
+}

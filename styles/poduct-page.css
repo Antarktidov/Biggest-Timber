@@ -1,0 +1,28 @@
+.poduct-page-main {
+    margin: 30px;
+    margin-right: 100px;
+    display: flex;
+}
+
+.product-page-product-wrapper {
+    width: 319px;
+}
+
+.product-page-product-img {
+    width: 100%;
+}
+
+.order-button {
+    width: 319px;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 14px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.product-page-about-product {
+    margin-left: 100px;
+    font-size: 20px;
+    font-family: 'Gropled-Bold';
+    max-width: 500px;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Отправить запрос | Biggest Timber</title>
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/common.css">
+    <link rel="stylesheet" href="styles/contact.css">
+</head>
+<body>
+    <nav class="nav">
+        <a href="index.html" class="nav-link">Главная</a>
+        <a href="shop.html" class="nav-link">Каталог товаров</a>
+        <a href="tos.html" class="nav-link">Условия использования</a>
+        <span href="contact.html" class="nav-link">Техподдержка</span>
+    </nav>
+    <main class="contact-main">
+        <h1 class="contact-title">Отправить запрос</h1>
+        <div class="rendered-form">
+            <div class="formbuilder-select form-group field-select-1707149266062">
+                <label class="how-can-we-help-you">Чем мы можем вам помочь?</label>
+                <select onchange="doSomething();" class="how-can-we-help-you-select form-control" name="" id="">
+                    <option value="option-1" selected="true" id="0">-</option>
+                    <option value="option-2" id="1">Уточнение вопросов покупки</option>
+                    <option value="option-3" id="2">Возврат заказа</option>
+                    <option value="option-3" id="3">Мой товар сломался</option>
+                    <option value="option-3" id="4">Другое</option>
+                </select>
+            </div>
+        </div>
+        <div class="rendered-form general-contact-form">
+            <div class="formbuilder-text form-group field-text-1707155432058">
+                <label for="text-1707155432058" class="formbuilder-text-label">Адрес электронной почты</label>
+                <input type="email" class="form-control" name="text-1707155432058" access="false" id="text-1707155432058">
+            </div>
+            <div class="formbuilder-number form-group field-number-1707155446109">
+                <label for="number-1707155446109" class="formbuilder-number-label">ID вашего заказа</label>
+                <input type="number" class="form-control" name="number-1707155446109" access="false" id="number-1707155446109">
+            </div>
+            <div class="formbuilder-text form-group field-text-1707155457839">
+                <label for="text-1707155457839" class="formbuilder-text-label">Тема запроса</label>
+                <input type="text" class="form-control" name="text-1707155457839" access="false" id="text-1707155457839">
+            </div>
+            <div class="formbuilder-textarea form-group field-textarea-1707155469319">
+                <label for="textarea-1707155469319" class="formbuilder-textarea-label">Описание проблеммы</label>
+                <textarea type="textarea" class="form-control" name="textarea-1707155469319" access="false" id="textarea-1707155469319"></textarea>
+            </div>
+            <div class="formbuilder-file form-group field-file-1707155492274">
+                <label for="file-1707155492274" class="formbuilder-file-label">Прикреплённые файлы</label>
+                <input type="file" class="form-control" name="file-1707155492274" access="false" multiple="false" id="file-1707155492274">
+            </div>
+            <div class="formbuilder-button form-group field-button-1707155498254">
+                <button type="button" class="btn-default btn assent-block send-request-btn" name="button-1707155498254" access="false" id="button-1707155498254">Отправить запрос</button>
+            </div>
+        </div>
+    </main>
+    <script src="scripts/contact.js">
+    </script>
+</body>
+</html>

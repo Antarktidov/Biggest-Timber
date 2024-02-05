@@ -1,0 +1,43 @@
+html {
+    color-scheme: dark;
+}
+
+body {
+    background-color: #171616;
+    color: white;
+}
+
+@font-face {
+	font-family: 'Gropled-Bold'; 
+	src: url(file:///D:/Biggest%20Timber/fonts/Gropled-Bold.otf); 
+}
+/*Навменю*/
+.nav {
+    height: 88px;
+    background-color: #414040;
+    padding-top: 34px;
+}
+
+.nav-link {
+    font-family: 'Gropled-Bold';
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+span.nav-link {
+    border-bottom: 4px solid white;
+}
+/*Блоки*/
+.block {
+    background-color: #FFE4E5;
+    color: black;
+    width: max-content;
+    font-family: 'Gropled-Bold';
+}
+
+.assent-block {
+    background-color: #00C9C8;
+    color: black !important;
+    width: max-content;
+    font-family: 'Gropled-Bold';
+}

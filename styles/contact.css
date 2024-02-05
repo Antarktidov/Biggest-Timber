@@ -1,0 +1,46 @@
+.form-control {
+    border: 1px solid white;
+}
+
+option {
+    background-color: black;
+    color: white;
+}
+label {
+    margin-bottom: 10px;
+}
+select,
+input {
+    height: 40px;
+}
+textarea {
+    min-height: 140px;
+}
+.how-can-we-help-you {
+    margin-top: 40px;
+}
+.form-group {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+.contact-main {
+    margin: 80px;
+    margin-left: 217px;
+    max-width: 848px;
+}
+.contact-title {
+    font-size: 30px;
+    font-family: 'Gropled-Bold';
+}
+.send-request-btn {
+    font-size: 20px;
+    padding: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+/*Для магии с JS*/
+.general-contact-form {
+    display: none;
+}
